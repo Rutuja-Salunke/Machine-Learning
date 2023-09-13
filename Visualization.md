@@ -14,6 +14,7 @@ A histplot, or histogram plot, is a simple graphical representation used to depi
 ![Histplot1](https://github.com/Rutujasalunke12/Machine-Learning/assets/102023809/a443639c-3e24-40d1-a708-a4ca0dbe97df)
 ## kdeplot:
 KDEplot, short for Kernel Density Estimation plot, is a data visualization technique used to estimate and visualize the probability density function of a continuous variable. It works by smoothing the data points to create a continuous curve that represents the underlying distribution of the data. KDEplots are particularly useful for understanding the shape and pattern of data distributions, revealing multiple modes or peaks, and providing a more detailed view of data density compared to traditional histograms. They are commonly used in data analysis and data exploration to gain insights into the distribution of variables and can be a valuable tool for identifying trends and patterns in data.
+
 ![KDE_plot](https://github.com/Rutujasalunke12/Machine-Learning/assets/102023809/c13d9467-efdf-4468-8934-0ed6163f16bf)
 ## Pairplot:
 A pairplot is a grid of scatterplots and histograms used to explore pairwise relationships between variables in a multivariate dataset. It provides a visual overview of how variables interact with each other, making it easier to identify correlations and patterns. Pairplots are particularly valuable in exploratory data analysis to uncover insights and guide further analysis.
