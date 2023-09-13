@@ -3,6 +3,8 @@
 ## Introduction:
 
 In the realm of healthcare, understanding and predicting health insurance costs is vital for both individuals and insurance providers. This project aims to develop a robust predictive model for health insurance costs using data sourced from Kaggle. Throughout the journey, three powerful algorithms will be employed: Linear Regression, Decision Trees, and Random Forest.
+## Problem Statement:
+To perform all data analysis steps and finally create a machine learning model which can predict the health insurance cost.
 
 ## Data Exploration:
 
