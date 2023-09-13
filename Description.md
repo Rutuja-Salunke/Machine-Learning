@@ -12,13 +12,15 @@ Checked for missing values - some in 'children' column
 ### Data Types: 
 Categorical ('gender', 'location', 'smoking status') and Numerical ('age', 'BMI', 'children', 'health insurance cost')
 ## Feature Engineering:
+To facilitate the modeling process, categorical data was transformed into numerical form using techniques like one-hot encoding. Subsequently, potential outliers in the dataset were identified using box plots and addressed through a robust approach.
 
-Conversion of categorical data to numerical form (one-hot encoding)
-Outlier detection and treatment using box plots
+- Conversion of categorical data to numerical form (one-hot encoding)
+- Outlier detection and treatment using box plots
 ## Feature Selection:
+Not all features were equally relevant in predicting health insurance costs. Correlation analysis revealed the most influential features. A refined dataset with a focus on these key variables was created.
 
-Identification of relevant features through correlation analysis
-Creation of a refined dataset with key variables
+- Identification of relevant features through correlation analysis
+- Creation of a refined dataset with key variables
 ## 1.Linear Regression:
 
 Initial modeling approach
@@ -45,7 +47,7 @@ Importance of data preprocessing, feature selection, and model evaluation
 
 - Linear Regression: R-squared score of 0.7569
 - Decision Trees: Mitigated overfitting, improved performance
-- Random Forest: Ensemble approach, enhanced predictive power
+- Random Forest: Ensemble approach, enhanced predictive power. 0.88 on training data and 0.86 on testing data
 ## Future Directions:
 
 Further exploration of advanced machine learning techniques
